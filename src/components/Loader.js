@@ -1,8 +1,9 @@
 import React from "react";
+import "./QuoteCard.css";
 
 function Loader() {
   return (
-    <figure className="QuoteCard">
+    <figure className="Loader">
       <figcaption>LOADING...</figcaption>
     </figure>
   );
